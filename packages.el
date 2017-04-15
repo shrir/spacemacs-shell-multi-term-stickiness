@@ -156,7 +156,8 @@
       (spacemacs/set-leader-keys-for-major-mode 'term-mode
         "c" 'multi-term
         "p" 'multi-term-prev
-        "n" 'multi-term-next))))
+        "n" 'multi-term-next
+        "s" 'multi-term-stickiness-toggle))))
 
 (defun shell/pre-init-org ()
   (spacemacs|use-package-add-hook org
